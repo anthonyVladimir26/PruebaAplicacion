@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    cardview:cardCornerRadius="3sp"
+    cardview:cardElevation="3dp"
+    cardview:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="end|left"
+        android:background="#E4B1B0B0"
+        >
+
+        <TextView
+            android:id="@+id/mensaje_recibido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mensaje"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/hora_recibido"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="end|bottom"
+            android:text="hora"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
